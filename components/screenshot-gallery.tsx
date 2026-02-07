@@ -38,7 +38,6 @@ export function ScreenshotGallery({ images }: ScreenshotGalleryProps) {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
               />
             </div>
-            <p className="mt-3 text-sm font-medium text-slate-700 dark:text-slate-300">{image.caption}</p>
           </button>
         ))}
       </div>
@@ -69,7 +68,6 @@ export function ScreenshotGallery({ images }: ScreenshotGalleryProps) {
               sizes="100vw"
               priority
             />
-            <p className="mt-3 text-center text-sm text-white/90">{selected.caption}</p>
           </div>
         </div>
       )}
